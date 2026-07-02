@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Torty's Café Dortmund | Coffee · Brunch · Dessert</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="loader">
+  <div class="loader-logo">Torty's</div>
+</div>
+
+<div class="progress-bar"></div>
+
+<header class="navbar">
+  <a href="#home" class="logo">Torty's <span>Café</span></a>
+
+  <nav class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">Über uns</a>
+    <a href="#menu">Speisekarte</a>
+    <a href="#gallery">Galerie</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+
+  <a href="tel:023113491122" class="nav-btn">Anrufen</a>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+
+  <div class="hero-content reveal">
+    <p class="eyebrow">🇲🇦 Marokkanische Gastfreundschaft in Dortmund</p>
+    <h1>Torty's Café</h1>
+    <p class="hero-subtitle">Coffee · Brunch · Dessert</p>
+    <p class="hero-text">
+      Ein moderner Wohlfühlort für Frühstück, Brunch, Kaffee, Kuchen und kreative Desserts – mitten in Dortmund.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#menu" class="btn primary">Speisekarte ansehen</a>
+      <a href="#contact" class="btn secondary">Route planen</a>
+    </div>
+  </div>
+</section>
+
+<section class="stats reveal">
+  <div>
+    <h3>4.7★</h3>
+    <p>Google Bewertung</p>
+  </div>
+  <div>
+    <h3>583+</h3>
+    <p>Rezensionen</p>
+  </div>
+  <div>
+    <h3>7.4K+</h3>
+    <p>Instagram Follower</p>
+  </div>
+</section>
+
+<section class="about section" id="about">
+  <div class="about-img reveal"></div>
+
+  <div class="about-text reveal">
+    <p class="section-label">Über Torty’s</p>
+    <h2>Brunch, Kaffee und Desserts mit Charakter.</h2>
+    <p>
+      Torty’s Café verbindet moderne Café-Kultur mit warmer Gastfreundschaft.
+      Hier treffen kreative Frühstücksvariationen, aromatischer Kaffee, hausgemachte Desserts
+      und ein gemütliches Ambiente aufeinander.
+    </p>
+    <p>
+      Inspiriert von internationalem Geschmack und einem Hauch marokkanischer Wärme entsteht ein Ort,
+      an dem man gerne bleibt.
+    </p>
+  </div>
+</section>
+
+<section class="highlights section">
+  <p class="section-label center">Highlights</p>
+  <h2 class="center">Was Torty’s besonders macht</h2>
+
+  <div class="highlight-grid">
+    <div class="highlight-card reveal">🥯<h3>Bagels</h3><p>Frisch, herzhaft und kreativ belegt.</p></div>
+    <div class="highlight-card reveal">🥞<h3>Pancakes</h3><p>Süß, fluffig und perfekt zum Teilen.</p></div>
+    <div class="highlight-card reveal">🧇<h3>Waffeln</h3><p>Knusprig, warm und mit tollen Toppings.</p></div>
+    <div class="highlight-card reveal">☕<h3>Special Coffee</h3><p>Kaffeevariationen mit Stil.</p></div>
+    <div class="highlight-card reveal">🍰<h3>Kuchen</h3><p>Täglich frische süße Köstlichkeiten.</p></div>
+    <div class="highlight-card reveal">🥗<h3>Lunch</h3><p>Bowls, Platten und herzhafte Gerichte.</p></div>
+  </div>
+</section>
+
+<section class="menu section" id="menu">
+  <p class="section-label center">Speisekarte</p>
+  <h2 class="center">Unsere Auswahl</h2>
+
+  <div class="menu-tabs">
+    <button class="tab active" data-category="brunch">Brunch</button>
+    <button class="tab" data-category="coffee">Coffee</button>
+    <button class="tab" data-category="dessert">Dessert</button>
+    <button class="tab" data-category="drinks">Drinks</button>
+  </div>
+
+  <div class="menu-list active" id="brunch">
+    <div class="menu-item"><span>Mr. Avocado Bagel</span><b>6,95 €</b></div>
+    <div class="menu-item"><span>Rührei Classic</span><b>6,95 €</b></div>
+    <div class="menu-item"><span>Nutella Dreams Pancakes</span><b>8,95 €</b></div>
+    <div class="menu-item"><span>Vegane Platte</span><b>11,95 €</b></div>
+  </div>
+
+  <div class="menu-list" id="coffee">
+    <div class="menu-item"><span>Espresso</span><b>2,00 €</b></div>
+    <div class="menu-item"><span>Cappuccino</span><b>2,90 €</b></div>
+    <div class="menu-item"><span>Latte Macchiato</span><b>4,50 €</b></div>
+    <div class="menu-item"><span>Atay Morocco</span><b>4,90 €</b></div>
+  </div>
+
+  <div class="menu-list" id="dessert">
+    <div class="menu-item"><span>Classic Waffel</span><b>5,90 €</b></div>
+    <div class="menu-item"><span>Oreo Cookies Cream</span><b>8,95 €</b></div>
+    <div class="menu-item"><span>Lotus Love</span><b>5,95 €</b></div>
+    <div class="menu-item"><span>Kuchen des Tages</span><b>wechselnd</b></div>
+  </div>
+
+  <div class="menu-list" id="drinks">
+    <div class="menu-item"><span>O-Saft</span><b>3,90 €</b></div>
+    <div class="menu-item"><span>Smoothie</span><b>4,50 €</b></div>
+    <div class="menu-item"><span>Milkshake Lotus</span><b>5,50 €</b></div>
+    <div class="menu-item"><span>Limonade Very Berry</span><b>4,90 €</b></div>
+  </div>
+</section>
+
+<section class="gallery section" id="gallery">
+  <p class="section-label center">Galerie</p>
+  <h2 class="center">Momente bei Torty’s</h2>
+
+  <div class="gallery-grid">
+    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80" alt="Café Innenraum">
+    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Kaffee">
+    <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=900&q=80" alt="Pancakes">
+    <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=900&q=80" alt="Frühstück">
+    <img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=900&q=80" alt="Dessert">
+    <img src="https://images.unsplash.com/photo-1511081692775-05d0f180a065?auto=format&fit=crop&w=900&q=80" alt="Brunch">
+  </div>
+</section>
+
+<section class="contact section" id="contact">
+  <div class="contact-info reveal">
+    <p class="section-label">Besuche uns</p>
+    <h2>Torty’s Café Dortmund</h2>
+    <p><b>Adresse:</b> Münsterstraße 115, 44145 Dortmund</p>
+    <p><b>Telefon:</b> 0231 13491122</p>
+    <p><b>Instagram:</b> @tortys_cafe</p>
+
+    <div class="contact-buttons">
+      <a class="btn primary" href="tel:023113491122">Jetzt anrufen</a>
+      <a class="btn secondary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Tortys+Cafe+Dortmund">Route öffnen</a>
+    </div>
+  </div>
+
+  <div class="map reveal">
+    <iframe
+      src="https://www.google.com/maps?q=Tortys%20Cafe%20Dortmund&output=embed"
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<footer>
+  <h3>Torty's Café</h3>
+  <p>Coffee · Brunch · Dessert · Dortmund</p>
+  <p>© 2026 Torty's Café Website Design</p>
+</footer>
+
+<a href="tel:023113491122" class="floating-call">☎</a>
+
+<script src="script.js"></script>
+</body>
+</html>
